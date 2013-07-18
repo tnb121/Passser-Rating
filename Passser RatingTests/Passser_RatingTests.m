@@ -2,8 +2,8 @@
 //  Passser_RatingTests.m
 //  Passser RatingTests
 //
-//  Created by Todd Bohannon on 7/17/13.
-//  Copyright (c) 2013 Todd Bohannon. All rights reserved.
+//  Created by Sanza on 7/17/13.
+//  Copyright (c) 2013 Sanza. All rights reserved.
 //
 
 #import "Passser_RatingTests.h"

@@ -224,7 +224,7 @@
 			attributes = {
 				CLASSPREFIX = PR;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Todd Bohannon";
+				ORGANIZATIONNAME = Sanza;
 			};
 			buildConfigurationList = 5F2C910517976D6700C9A921 /* Build configuration list for PBXProject "Passser Rating" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -411,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Passser Rating/Passser Rating-Prefix.pch";
 				INFOPLIST_FILE = "Passser Rating/Passser Rating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -422,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Passser Rating/Passser Rating-Prefix.pch";
 				INFOPLIST_FILE = "Passser Rating/Passser Rating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
