@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2C910E17976D6700C9A921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C910D17976D6700C9A921 /* UIKit.framework */; };
+		5F2C911017976D6800C9A921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C910F17976D6700C9A921 /* Foundation.framework */; };
+		5F2C911217976D6800C9A921 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C911117976D6800C9A921 /* CoreGraphics.framework */; };
+		5F2C911417976D6800C9A921 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C911317976D6800C9A921 /* CoreData.framework */; };
+		5F2C911A17976D6800C9A921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C911817976D6800C9A921 /* InfoPlist.strings */; };
+		5F2C911C17976D6800C9A921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C911B17976D6800C9A921 /* main.m */; };
+		5F2C912017976D6800C9A921 /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C911F17976D6800C9A921 /* PRAppDelegate.m */; };
+		5F2C912217976D6800C9A921 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C912117976D6800C9A921 /* Default.png */; };
+		5F2C912417976D6800C9A921 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C912317976D6800C9A921 /* Default@2x.png */; };
+		5F2C912617976D6800C9A921 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C912517976D6800C9A921 /* Default-568h@2x.png */; };
+		5F2C912917976D6800C9A921 /* Passser_Rating.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912717976D6800C9A921 /* Passser_Rating.xcdatamodeld */; };
+		5F2C912C17976D6800C9A921 /* PRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912B17976D6800C9A921 /* PRMasterViewController.m */; };
+		5F2C912F17976D6800C9A921 /* PRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912E17976D6800C9A921 /* PRDetailViewController.m */; };
+		5F2C913217976D6800C9A921 /* PRMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C913017976D6800C9A921 /* PRMasterViewController.xib */; };
+		5F2C913517976D6800C9A921 /* PRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C913317976D6800C9A921 /* PRDetailViewController.xib */; };
+		5F2C913D17976D6800C9A921 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C913C17976D6800C9A921 /* SenTestingKit.framework */; };
+		5F2C913E17976D6800C9A921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C910D17976D6700C9A921 /* UIKit.framework */; };
+		5F2C913F17976D6800C9A921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C910F17976D6700C9A921 /* Foundation.framework */; };
+		5F2C914017976D6800C9A921 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C911317976D6800C9A921 /* CoreData.framework */; };
+		5F2C914817976D6800C9A921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C914617976D6800C9A921 /* InfoPlist.strings */; };
+		5F2C914B17976D6800C9A921 /* Passser_RatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F2C914117976D6800C9A921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F2C910217976D6700C9A921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F2C910917976D6700C9A921;
+			remoteInfo = "Passser Rating";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F2C910A17976D6700C9A921 /* Passser Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passser Rating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2C910D17976D6700C9A921 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F2C910F17976D6700C9A921 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F2C911117976D6800C9A921 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F2C911317976D6800C9A921 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5F2C911717976D6800C9A921 /* Passser Rating-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passser Rating-Info.plist"; sourceTree = "<group>"; };
+		5F2C911917976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F2C911B17976D6800C9A921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F2C911D17976D6800C9A921 /* Passser Rating-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passser Rating-Prefix.pch"; sourceTree = "<group>"; };
+		5F2C911E17976D6800C9A921 /* PRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRAppDelegate.h; sourceTree = "<group>"; };
+		5F2C911F17976D6800C9A921 /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
+		5F2C912117976D6800C9A921 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5F2C912317976D6800C9A921 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5F2C912517976D6800C9A921 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F2C912817976D6800C9A921 /* Passser_Rating.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Passser_Rating.xcdatamodel; sourceTree = "<group>"; };
+		5F2C912A17976D6800C9A921 /* PRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRMasterViewController.h; sourceTree = "<group>"; };
+		5F2C912B17976D6800C9A921 /* PRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRMasterViewController.m; sourceTree = "<group>"; };
+		5F2C912D17976D6800C9A921 /* PRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRDetailViewController.h; sourceTree = "<group>"; };
+		5F2C912E17976D6800C9A921 /* PRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRDetailViewController.m; sourceTree = "<group>"; };
+		5F2C913117976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRMasterViewController.xib; sourceTree = "<group>"; };
+		5F2C913417976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRDetailViewController.xib; sourceTree = "<group>"; };
+		5F2C913B17976D6800C9A921 /* Passser RatingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passser RatingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2C913C17976D6800C9A921 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F2C914517976D6800C9A921 /* Passser RatingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passser RatingTests-Info.plist"; sourceTree = "<group>"; };
+		5F2C914717976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F2C914917976D6800C9A921 /* Passser_RatingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passser_RatingTests.h; sourceTree = "<group>"; };
+		5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passser_RatingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F2C910717976D6700C9A921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C910E17976D6700C9A921 /* UIKit.framework in Frameworks */,
+				5F2C911017976D6800C9A921 /* Foundation.framework in Frameworks */,
+				5F2C911217976D6800C9A921 /* CoreGraphics.framework in Frameworks */,
+				5F2C911417976D6800C9A921 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2C913717976D6800C9A921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C913D17976D6800C9A921 /* SenTestingKit.framework in Frameworks */,
+				5F2C913E17976D6800C9A921 /* UIKit.framework in Frameworks */,
+				5F2C913F17976D6800C9A921 /* Foundation.framework in Frameworks */,
+				5F2C914017976D6800C9A921 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2C910117976D6700C9A921 = {
+			isa = PBXGroup;
+			children = (
+				5F2C911517976D6800C9A921 /* Passser Rating */,
+				5F2C914317976D6800C9A921 /* Passser RatingTests */,
+				5F2C910C17976D6700C9A921 /* Frameworks */,
+				5F2C910B17976D6700C9A921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F2C910B17976D6700C9A921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C910A17976D6700C9A921 /* Passser Rating.app */,
+				5F2C913B17976D6800C9A921 /* Passser RatingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F2C910C17976D6700C9A921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C910D17976D6700C9A921 /* UIKit.framework */,
+				5F2C910F17976D6700C9A921 /* Foundation.framework */,
+				5F2C911117976D6800C9A921 /* CoreGraphics.framework */,
+				5F2C911317976D6800C9A921 /* CoreData.framework */,
+				5F2C913C17976D6800C9A921 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F2C911517976D6800C9A921 /* Passser Rating */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C911E17976D6800C9A921 /* PRAppDelegate.h */,
+				5F2C911F17976D6800C9A921 /* PRAppDelegate.m */,
+				5F2C912A17976D6800C9A921 /* PRMasterViewController.h */,
+				5F2C912B17976D6800C9A921 /* PRMasterViewController.m */,
+				5F2C912D17976D6800C9A921 /* PRDetailViewController.h */,
+				5F2C912E17976D6800C9A921 /* PRDetailViewController.m */,
+				5F2C913017976D6800C9A921 /* PRMasterViewController.xib */,
+				5F2C913317976D6800C9A921 /* PRDetailViewController.xib */,
+				5F2C912717976D6800C9A921 /* Passser_Rating.xcdatamodeld */,
+				5F2C911617976D6800C9A921 /* Supporting Files */,
+			);
+			path = "Passser Rating";
+			sourceTree = "<group>";
+		};
+		5F2C911617976D6800C9A921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C911717976D6800C9A921 /* Passser Rating-Info.plist */,
+				5F2C911817976D6800C9A921 /* InfoPlist.strings */,
+				5F2C911B17976D6800C9A921 /* main.m */,
+				5F2C911D17976D6800C9A921 /* Passser Rating-Prefix.pch */,
+				5F2C912117976D6800C9A921 /* Default.png */,
+				5F2C912317976D6800C9A921 /* Default@2x.png */,
+				5F2C912517976D6800C9A921 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F2C914317976D6800C9A921 /* Passser RatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C914917976D6800C9A921 /* Passser_RatingTests.h */,
+				5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */,
+				5F2C914417976D6800C9A921 /* Supporting Files */,
+			);
+			path = "Passser RatingTests";
+			sourceTree = "<group>";
+		};
+		5F2C914417976D6800C9A921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2C914517976D6800C9A921 /* Passser RatingTests-Info.plist */,
+				5F2C914617976D6800C9A921 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F2C910917976D6700C9A921 /* Passser Rating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2C914E17976D6800C9A921 /* Build configuration list for PBXNativeTarget "Passser Rating" */;
+			buildPhases = (
+				5F2C910617976D6700C9A921 /* Sources */,
+				5F2C910717976D6700C9A921 /* Frameworks */,
+				5F2C910817976D6700C9A921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passser Rating";
+			productName = "Passser Rating";
+			productReference = 5F2C910A17976D6700C9A921 /* Passser Rating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F2C913A17976D6800C9A921 /* Passser RatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2C915117976D6800C9A921 /* Build configuration list for PBXNativeTarget "Passser RatingTests" */;
+			buildPhases = (
+				5F2C913617976D6800C9A921 /* Sources */,
+				5F2C913717976D6800C9A921 /* Frameworks */,
+				5F2C913817976D6800C9A921 /* Resources */,
+				5F2C913917976D6800C9A921 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F2C914217976D6800C9A921 /* PBXTargetDependency */,
+			);
+			name = "Passser RatingTests";
+			productName = "Passser RatingTests";
+			productReference = 5F2C913B17976D6800C9A921 /* Passser RatingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F2C910217976D6700C9A921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Todd Bohannon";
+			};
+			buildConfigurationList = 5F2C910517976D6700C9A921 /* Build configuration list for PBXProject "Passser Rating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F2C910117976D6700C9A921;
+			productRefGroup = 5F2C910B17976D6700C9A921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F2C910917976D6700C9A921 /* Passser Rating */,
+				5F2C913A17976D6800C9A921 /* Passser RatingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F2C910817976D6700C9A921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C911A17976D6800C9A921 /* InfoPlist.strings in Resources */,
+				5F2C912217976D6800C9A921 /* Default.png in Resources */,
+				5F2C912417976D6800C9A921 /* Default@2x.png in Resources */,
+				5F2C912617976D6800C9A921 /* Default-568h@2x.png in Resources */,
+				5F2C913217976D6800C9A921 /* PRMasterViewController.xib in Resources */,
+				5F2C913517976D6800C9A921 /* PRDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2C913817976D6800C9A921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C914817976D6800C9A921 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F2C913917976D6800C9A921 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F2C910617976D6700C9A921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C911C17976D6800C9A921 /* main.m in Sources */,
+				5F2C912017976D6800C9A921 /* PRAppDelegate.m in Sources */,
+				5F2C912917976D6800C9A921 /* Passser_Rating.xcdatamodeld in Sources */,
+				5F2C912C17976D6800C9A921 /* PRMasterViewController.m in Sources */,
+				5F2C912F17976D6800C9A921 /* PRDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2C913617976D6800C9A921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C914B17976D6800C9A921 /* Passser_RatingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F2C914217976D6800C9A921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F2C910917976D6700C9A921 /* Passser Rating */;
+			targetProxy = 5F2C914117976D6800C9A921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F2C911817976D6800C9A921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2C911917976D6800C9A921 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F2C913017976D6800C9A921 /* PRMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2C913117976D6800C9A921 /* en */,
+			);
+			name = PRMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		5F2C913317976D6800C9A921 /* PRDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2C913417976D6800C9A921 /* en */,
+			);
+			name = PRDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		5F2C914617976D6800C9A921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2C914717976D6800C9A921 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F2C914C17976D6800C9A921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F2C914D17976D6800C9A921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F2C914F17976D6800C9A921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passser Rating/Passser Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passser Rating/Passser Rating-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F2C915017976D6800C9A921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passser Rating/Passser Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passser Rating/Passser Rating-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F2C915217976D6800C9A921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passser Rating.app/Passser Rating";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passser Rating/Passser Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passser RatingTests/Passser RatingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F2C915317976D6800C9A921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passser Rating.app/Passser Rating";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passser Rating/Passser Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passser RatingTests/Passser RatingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F2C910517976D6700C9A921 /* Build configuration list for PBXProject "Passser Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2C914C17976D6800C9A921 /* Debug */,
+				5F2C914D17976D6800C9A921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2C914E17976D6800C9A921 /* Build configuration list for PBXNativeTarget "Passser Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2C914F17976D6800C9A921 /* Debug */,
+				5F2C915017976D6800C9A921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F2C915117976D6800C9A921 /* Build configuration list for PBXNativeTarget "Passser RatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2C915217976D6800C9A921 /* Debug */,
+				5F2C915317976D6800C9A921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F2C912717976D6800C9A921 /* Passser_Rating.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F2C912817976D6800C9A921 /* Passser_Rating.xcdatamodel */,
+			);
+			currentVersion = 5F2C912817976D6800C9A921 /* Passser_Rating.xcdatamodel */;
+			path = Passser_Rating.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F2C910217976D6700C9A921 /* Project object */;
+}
