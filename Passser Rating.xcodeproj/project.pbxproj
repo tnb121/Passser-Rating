@@ -28,6 +28,9 @@
 		5F2C914017976D6800C9A921 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C911317976D6800C9A921 /* CoreData.framework */; };
 		5F2C914817976D6800C9A921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C914617976D6800C9A921 /* InfoPlist.strings */; };
 		5F2C914B17976D6800C9A921 /* Passser_RatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */; };
+		5FB026701798B4860093815C /* rating.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB0266E1798B4860093815C /* rating.c */; };
+		5FB026731798BC9A0093815C /* Passer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB026721798BC9A0093815C /* Passer.m */; };
+		5FB026761798BC9B0093815C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB026751798BC9B0093815C /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,12 @@
 		5F2C914717976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F2C914917976D6800C9A921 /* Passser_RatingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passser_RatingTests.h; sourceTree = "<group>"; };
 		5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passser_RatingTests.m; sourceTree = "<group>"; };
+		5FB0266E1798B4860093815C /* rating.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rating.c; sourceTree = "<group>"; };
+		5FB0266F1798B4860093815C /* rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rating.h; sourceTree = "<group>"; };
+		5FB026711798BC9A0093815C /* Passer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Passer.h; path = Mode1/Passer.h; sourceTree = "<group>"; };
+		5FB026721798BC9A0093815C /* Passer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Passer.m; path = Mode1/Passer.m; sourceTree = "<group>"; };
+		5FB026741798BC9B0093815C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Mode1/Game.h; sourceTree = "<group>"; };
+		5FB026751798BC9B0093815C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = Mode1/Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +148,7 @@
 				5F2C913017976D6800C9A921 /* PRMasterViewController.xib */,
 				5F2C913317976D6800C9A921 /* PRDetailViewController.xib */,
 				5F2C912717976D6800C9A921 /* Passser_Rating.xcdatamodeld */,
+				5FB026771798BCE40093815C /* Data Model */,
 				5F2C911617976D6800C9A921 /* Supporting Files */,
 			);
 			path = "Passser Rating";
@@ -148,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				5F2C911717976D6800C9A921 /* Passser Rating-Info.plist */,
+				5FB0266E1798B4860093815C /* rating.c */,
+				5FB0266F1798B4860093815C /* rating.h */,
 				5F2C911817976D6800C9A921 /* InfoPlist.strings */,
 				5F2C911B17976D6800C9A921 /* main.m */,
 				5F2C911D17976D6800C9A921 /* Passser Rating-Prefix.pch */,
@@ -175,6 +187,17 @@
 				5F2C914617976D6800C9A921 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB026771798BCE40093815C /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FB026721798BC9A0093815C /* Passer.m */,
+				5FB026711798BC9A0093815C /* Passer.h */,
+				5FB026751798BC9B0093815C /* Game.m */,
+				5FB026741798BC9B0093815C /* Game.h */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +317,9 @@
 				5F2C912917976D6800C9A921 /* Passser_Rating.xcdatamodeld in Sources */,
 				5F2C912C17976D6800C9A921 /* PRMasterViewController.m in Sources */,
 				5F2C912F17976D6800C9A921 /* PRDetailViewController.m in Sources */,
+				5FB026701798B4860093815C /* rating.c in Sources */,
+				5FB026731798BC9A0093815C /* Passer.m in Sources */,
+				5FB026761798BC9B0093815C /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +508,7 @@
 				5F2C915017976D6800C9A921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F2C915117976D6800C9A921 /* Build configuration list for PBXNativeTarget "Passser RatingTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +517,7 @@
 				5F2C915317976D6800C9A921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
