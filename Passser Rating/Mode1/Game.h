@@ -23,6 +23,7 @@
 @property (nonatomic, retain) NSNumber * yards;
 @property (nonatomic, retain) NSNumber * touchdowns;
 @property (nonatomic, retain) NSNumber * interceptions;
-@property (nonatomic, retain) Passer *passer;
+@property (nonatomic, retain) Passer * passer;
+@property (nonatomic, readonly, retain) NSNumber * passerRating;
 
 @end

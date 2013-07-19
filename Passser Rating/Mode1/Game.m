@@ -8,9 +8,16 @@
 
 #import "Game.h"
 #import "Passer.h"
+#import "rating.h"
 
 
 @implementation Game
+
+- (NSNumber *) passerRating
+{
+    double rating = passer_rating(self.attempts.intValue,self.completions.intValue,self.yards.intValue,self.touchdowns.intValue,self.interceptions.intValue);
+    return [NSNumber numberWithDouble: rating];
+}
 
 @dynamic whenPlayed;
 @dynamic ourTeam;
