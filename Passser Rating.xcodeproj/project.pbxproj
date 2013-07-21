@@ -18,9 +18,9 @@
 		5F2C912417976D6800C9A921 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C912317976D6800C9A921 /* Default@2x.png */; };
 		5F2C912617976D6800C9A921 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C912517976D6800C9A921 /* Default-568h@2x.png */; };
 		5F2C912917976D6800C9A921 /* Passser_Rating.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912717976D6800C9A921 /* Passser_Rating.xcdatamodeld */; };
-		5F2C912C17976D6800C9A921 /* PRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912B17976D6800C9A921 /* PRMasterViewController.m */; };
+		5F2C912C17976D6800C9A921 /* PasserListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912B17976D6800C9A921 /* PasserListController.m */; };
 		5F2C912F17976D6800C9A921 /* PRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C912E17976D6800C9A921 /* PRDetailViewController.m */; };
-		5F2C913217976D6800C9A921 /* PRMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C913017976D6800C9A921 /* PRMasterViewController.xib */; };
+		5F2C913217976D6800C9A921 /* PasserListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C913017976D6800C9A921 /* PasserListController.xib */; };
 		5F2C913517976D6800C9A921 /* PRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C913317976D6800C9A921 /* PRDetailViewController.xib */; };
 		5F2C913D17976D6800C9A921 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C913C17976D6800C9A921 /* SenTestingKit.framework */; };
 		5F2C913E17976D6800C9A921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C910D17976D6700C9A921 /* UIKit.framework */; };
@@ -59,11 +59,11 @@
 		5F2C912317976D6800C9A921 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F2C912517976D6800C9A921 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5F2C912817976D6800C9A921 /* Passser_Rating.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Passser_Rating.xcdatamodel; sourceTree = "<group>"; };
-		5F2C912A17976D6800C9A921 /* PRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRMasterViewController.h; sourceTree = "<group>"; };
-		5F2C912B17976D6800C9A921 /* PRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRMasterViewController.m; sourceTree = "<group>"; };
+		5F2C912A17976D6800C9A921 /* PasserListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasserListController.h; sourceTree = "<group>"; };
+		5F2C912B17976D6800C9A921 /* PasserListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasserListController.m; sourceTree = "<group>"; };
 		5F2C912D17976D6800C9A921 /* PRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRDetailViewController.h; sourceTree = "<group>"; };
 		5F2C912E17976D6800C9A921 /* PRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRDetailViewController.m; sourceTree = "<group>"; };
-		5F2C913117976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRMasterViewController.xib; sourceTree = "<group>"; };
+		5F2C913117976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PasserListController.xib; sourceTree = "<group>"; };
 		5F2C913417976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRDetailViewController.xib; sourceTree = "<group>"; };
 		5F2C913B17976D6800C9A921 /* Passser RatingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passser RatingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2C913C17976D6800C9A921 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -141,11 +141,11 @@
 			children = (
 				5F2C911E17976D6800C9A921 /* PRAppDelegate.h */,
 				5F2C911F17976D6800C9A921 /* PRAppDelegate.m */,
-				5F2C912A17976D6800C9A921 /* PRMasterViewController.h */,
-				5F2C912B17976D6800C9A921 /* PRMasterViewController.m */,
+				5F2C912A17976D6800C9A921 /* PasserListController.h */,
+				5F2C912B17976D6800C9A921 /* PasserListController.m */,
 				5F2C912D17976D6800C9A921 /* PRDetailViewController.h */,
 				5F2C912E17976D6800C9A921 /* PRDetailViewController.m */,
-				5F2C913017976D6800C9A921 /* PRMasterViewController.xib */,
+				5F2C913017976D6800C9A921 /* PasserListController.xib */,
 				5F2C913317976D6800C9A921 /* PRDetailViewController.xib */,
 				5F2C912717976D6800C9A921 /* Passser_Rating.xcdatamodeld */,
 				5FB026771798BCE40093815C /* Data Model */,
@@ -276,7 +276,7 @@
 				5F2C912217976D6800C9A921 /* Default.png in Resources */,
 				5F2C912417976D6800C9A921 /* Default@2x.png in Resources */,
 				5F2C912617976D6800C9A921 /* Default-568h@2x.png in Resources */,
-				5F2C913217976D6800C9A921 /* PRMasterViewController.xib in Resources */,
+				5F2C913217976D6800C9A921 /* PasserListController.xib in Resources */,
 				5F2C913517976D6800C9A921 /* PRDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +315,7 @@
 				5F2C911C17976D6800C9A921 /* main.m in Sources */,
 				5F2C912017976D6800C9A921 /* PRAppDelegate.m in Sources */,
 				5F2C912917976D6800C9A921 /* Passser_Rating.xcdatamodeld in Sources */,
-				5F2C912C17976D6800C9A921 /* PRMasterViewController.m in Sources */,
+				5F2C912C17976D6800C9A921 /* PasserListController.m in Sources */,
 				5F2C912F17976D6800C9A921 /* PRDetailViewController.m in Sources */,
 				5FB026701798B4860093815C /* rating.c in Sources */,
 				5FB026731798BC9A0093815C /* Passer.m in Sources */,
@@ -350,12 +350,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5F2C913017976D6800C9A921 /* PRMasterViewController.xib */ = {
+		5F2C913017976D6800C9A921 /* PasserListController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5F2C913117976D6800C9A921 /* en */,
 			);
-			name = PRMasterViewController.xib;
+			name = PasserListController.xib;
 			sourceTree = "<group>";
 		};
 		5F2C913317976D6800C9A921 /* PRDetailViewController.xib */ = {

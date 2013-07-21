@@ -8,7 +8,7 @@
 
 #import "PRAppDelegate.h"
 
-#import "PRMasterViewController.h"
+#import "PasserListController.h"
 
 @implementation PRAppDelegate
 
@@ -31,7 +31,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
 
-    PRMasterViewController *masterViewController = [[[PRMasterViewController alloc] initWithNibName:@"PRMasterViewController" bundle:nil] autorelease];
+    PasserListController *masterViewController = [[[PasserListController alloc] initWithNibName:@"PRMasterViewController" bundle:nil] autorelease];
     self.navigationController = [[[UINavigationController alloc] initWithRootViewController:masterViewController] autorelease];
     masterViewController.managedObjectContext = self.managedObjectContext;
     self.window.rootViewController = self.navigationController;

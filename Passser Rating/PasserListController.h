@@ -12,7 +12,7 @@
 
 #import <CoreData/CoreData.h>
 
-@interface PRMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface PasserListController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) PRDetailViewController *detailViewController;
 
