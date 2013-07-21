@@ -12,6 +12,8 @@
 
 @implementation PRAppDelegate
 
+#define ALWAYS_DELETE_STORE 1
+
 - (void)dealloc
 {
     [_window release];
@@ -120,6 +122,11 @@
     }
     
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Passser_Rating.sqlite"];
+#if ALWAYS_DELETE_STORE
+    // For ease in debugging, always start with a fresh data store.
+    [[NSFileManager defaultManager] removeItemAtURL: storeURL error: NULL];
+#endif
+    
     
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];

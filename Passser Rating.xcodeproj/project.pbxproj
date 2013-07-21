@@ -28,6 +28,8 @@
 		5F2C914017976D6800C9A921 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C911317976D6800C9A921 /* CoreData.framework */; };
 		5F2C914817976D6800C9A921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C914617976D6800C9A921 /* InfoPlist.strings */; };
 		5F2C914B17976D6800C9A921 /* Passser_RatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */; };
+		5FA9CC41179B809700684C9A /* sample-data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5FA9CC40179B809700684C9A /* sample-data.csv */; };
+		5FA9CC44179B86CF00684C9A /* SimpleCSVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA9CC43179B86CF00684C9A /* SimpleCSVFile.m */; };
 		5FB026701798B4860093815C /* rating.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FB0266E1798B4860093815C /* rating.c */; };
 		5FB026731798BC9A0093815C /* Passer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB026721798BC9A0093815C /* Passer.m */; };
 		5FB026761798BC9B0093815C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB026751798BC9B0093815C /* Game.m */; };
@@ -71,6 +73,10 @@
 		5F2C914717976D6800C9A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F2C914917976D6800C9A921 /* Passser_RatingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passser_RatingTests.h; sourceTree = "<group>"; };
 		5F2C914A17976D6800C9A921 /* Passser_RatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passser_RatingTests.m; sourceTree = "<group>"; };
+		5FA9CC3D179B7EC000684C9A /* generate-games.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "generate-games.rb"; sourceTree = "<group>"; };
+		5FA9CC40179B809700684C9A /* sample-data.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sample-data.csv"; sourceTree = "<group>"; };
+		5FA9CC42179B86CF00684C9A /* SimpleCSVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCSVFile.h; sourceTree = "<group>"; };
+		5FA9CC43179B86CF00684C9A /* SimpleCSVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCSVFile.m; sourceTree = "<group>"; };
 		5FB0266E1798B4860093815C /* rating.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rating.c; sourceTree = "<group>"; };
 		5FB0266F1798B4860093815C /* rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rating.h; sourceTree = "<group>"; };
 		5FB026711798BC9A0093815C /* Passer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Passer.h; path = Mode1/Passer.h; sourceTree = "<group>"; };
@@ -108,6 +114,9 @@
 		5F2C910117976D6700C9A921 = {
 			isa = PBXGroup;
 			children = (
+				5FA9CC40179B809700684C9A /* sample-data.csv */,
+				5FA9CC3D179B7EC000684C9A /* generate-games.rb */,
+				5FA9CC45179B86D700684C9A /* SimpleCSV */,
 				5F2C911517976D6800C9A921 /* Passser Rating */,
 				5F2C914317976D6800C9A921 /* Passser RatingTests */,
 				5F2C910C17976D6700C9A921 /* Frameworks */,
@@ -189,6 +198,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5FA9CC45179B86D700684C9A /* SimpleCSV */ = {
+			isa = PBXGroup;
+			children = (
+				5FA9CC42179B86CF00684C9A /* SimpleCSVFile.h */,
+				5FA9CC43179B86CF00684C9A /* SimpleCSVFile.m */,
+			);
+			name = SimpleCSV;
+			path = "Passser Rating";
+			sourceTree = "<group>";
+		};
 		5FB026771798BCE40093815C /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +228,7 @@
 			buildPhases = (
 				5F2C910617976D6700C9A921 /* Sources */,
 				5F2C910717976D6700C9A921 /* Frameworks */,
+				5FA9CC3F179B7EEC00684C9A /* Generate Test Data */,
 				5F2C910817976D6700C9A921 /* Resources */,
 			);
 			buildRules = (
@@ -272,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA9CC41179B809700684C9A /* sample-data.csv in Resources */,
 				5F2C911A17976D6800C9A921 /* InfoPlist.strings in Resources */,
 				5F2C912217976D6800C9A921 /* Default.png in Resources */,
 				5F2C912417976D6800C9A921 /* Default@2x.png in Resources */,
@@ -305,6 +326,22 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		5FA9CC3F179B7EEC00684C9A /* Generate Test Data */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/generate-games.rb",
+			);
+			name = "Generate Test Data";
+			outputPaths = (
+				"$(SRCROOT)/sample.data.csv",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/ruby \"${SRCROOT}/generate-games.rb\" > \"${SRCROOT}/sample-data.csv\" ";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -320,6 +357,7 @@
 				5FB026701798B4860093815C /* rating.c in Sources */,
 				5FB026731798BC9A0093815C /* Passer.m in Sources */,
 				5FB026761798BC9B0093815C /* Game.m in Sources */,
+				5FA9CC44179B86CF00684C9A /* SimpleCSVFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
