@@ -8,7 +8,7 @@
 
 #import "PasserListController.h"
 
-#import "PRDetailViewController.h"
+#import "GameListController.h"
 
 #import "Passer.h"
 #import "Game.h"
@@ -158,7 +158,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (!self.detailViewController) {
-        self.detailViewController = [[[PRDetailViewController alloc] initWithNibName:@"PRDetailViewController" bundle:nil] autorelease];
+        self.detailViewController = [[[GameListController alloc] initWithNibName:@"PRDetailViewController" bundle:nil] autorelease];
     }
     NSManagedObject *selectedObject = [[self fetchedResultsController] objectAtIndexPath:indexPath];
     self.detailViewController.detailItem = selectedObject;

@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class PRDetailViewController;
+@class GameListController;
 
 #import <CoreData/CoreData.h>
 
 @interface PasserListController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) PRDetailViewController *detailViewController;
+@property (strong, nonatomic) GameListController *detailViewController;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
